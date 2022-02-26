@@ -9,18 +9,18 @@ export const Hero = () => {
           HELPWE.SK
         </Heading>
         <Heading fontSize="2xl" as="p" color="white">
-          Pлатформа яка об'єднує потребуючих людей з України, які постраждали в
-          наслідок війни та всіх чиє серце відкрите на допомогу.
+          A platform that unites needy people from Ukraine who suffered as a
+          result of the war and all whose hearts are open to help.
         </Heading>
         <HStack mt="8" wrap="wrap">
           <Link href="/requests">
             <a>
-              <Button colorScheme="blue">Хочу допомогти</Button>
+              <Button colorScheme="blue">I want to help</Button>
             </a>
           </Link>
           <Link href="/volonteers">
             <a>
-              <Button colorScheme="yellow">Потребую допомогу</Button>
+              <Button colorScheme="yellow">I need a help</Button>
             </a>
           </Link>
         </HStack>
